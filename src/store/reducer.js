@@ -9,6 +9,6 @@ export const Reducer = function ( initailState, action) {
       case "DECREMENT":
         return initailState - 1;
       default:
-        return initailState.count;
+        return initailState;
     }
 };
